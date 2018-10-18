@@ -67,6 +67,12 @@ hr{
     text-align: center;
 }
 
+/* Projects Section */
+#project-overview{
+    text-align: center;
+    margin: 0 auto;
+}
+
 /* Footer & Social Media Links*/
 #social-media{
     text-align: center;
