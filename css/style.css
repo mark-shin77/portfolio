@@ -91,6 +91,11 @@ body{
     background-color:white;
     opacity: .5;
 }
+#navbar-color{
+    background-color:rgba(0, 0, 0, 0.829);
+    position: fixed top;
+
+}
 /* Text Inside of Background */
 #white-space{
     visibility: hidden;
