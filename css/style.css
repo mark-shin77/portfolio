@@ -70,6 +70,11 @@ body{
     font-weight: bold;
     color: white;
 }
+#logo:hover{
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
 #aboutMe{
     margin-right: 10px;
     font-size: 15px;
