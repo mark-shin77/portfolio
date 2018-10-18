@@ -1,0 +1,57 @@
+/* Background For Opening Message */
+#introduction{
+    background: url(../images/header-background.jpg);
+    height: 600px;
+    opacity: .9;
+}
+
+/* Nav Bar Items */
+#logo{
+    margin-left: 1%;
+    font-weight: bold;
+    color: white;
+}
+#aboutMe{
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+#resume{
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+#contactInfo{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.navbar-toggler{
+    background-color:white;
+    opacity: .5;
+}
+/* Text Inside of Background */
+#white-space{
+    visibility: hidden;
+}
+
+#short-message{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.829);
+    width:  40%;
+}
+h1{
+    font-size: 60px;
+}
+
+/* Picture & Brand Statement */
+
+/* Divider */
+hr{
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    width: 60%;
+}
+
