@@ -5,6 +5,10 @@
     opacity: .9;
 }
 
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 /* Nav Bar Items */
 #logo{
     margin-left: 1%;
@@ -53,5 +57,47 @@ h1{
 hr{
     border: 2px solid rgba(0, 0, 0, 0.5);
     width: 60%;
+}
+
+/* Skills & Interests Section */
+#skills{
+    text-align: center;
+}
+#interests{
+    text-align: center;
+}
+
+/* Footer & Social Media Links*/
+#social-media{
+    text-align: center;
+    background-color: #d5d5d5;
+}
+.social a {
+    font-size: 2em;
+    padding: 3rem;
+  }
+
+.fa-facebook {
+    color: #3b5998;
+  }
+.fa-linkedin{
+    color: #4875B4
+
+}
+.fa-github{
+    color: black;
+}
+
+.fa-facebook:hover,
+.fa-linkedin:hover,
+.fa-github:hover {
+  color: violet;
+}
+
+footer{
+    background-color:rgba(0, 0, 0, 0.829);
+    color: white;
+    padding: 50px;
+    text-align: center;
 }
 
