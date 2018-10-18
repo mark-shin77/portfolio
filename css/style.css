@@ -92,9 +92,8 @@ body{
     opacity: .5;
 }
 #navbar-color{
-    background-color:rgba(0, 0, 0, 0.829);
+    background-color:#3a4660;
     position: fixed top;
-
 }
 /* Text Inside of Background */
 #white-space{
@@ -115,7 +114,7 @@ h1{
 
 /* Divider */
 hr{
-    border: 2px solid rgba(0, 0, 0, 0.5);
+    border: 2px solid #3a4660;
     width: 60%;
 }
 
@@ -161,7 +160,7 @@ hr{
 }
 
 footer{
-    background-color:rgba(0, 0, 0, 0.829);
+    background-color:#3a4660;
     color: white;
     padding: 50px;
     text-align: center;
