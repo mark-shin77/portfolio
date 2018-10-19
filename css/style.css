@@ -70,7 +70,10 @@ body{
     font-weight: bold;
     color: white;
 }
-#logo:hover{
+#logo:hover,
+#aboutMe:hover,
+#resume:hover,
+#contactInfo:hover{
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
     box-shadow: 0 0 10px #ccc;
@@ -100,6 +103,7 @@ body{
     background-color:#3a4660;
     position: fixed top;
 }
+
 /* Extra Spacing in areas that I don't want to be shown */
 .white-space{
     visibility: hidden;
