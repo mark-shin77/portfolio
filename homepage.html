@@ -15,7 +15,9 @@
         <!-- My CSS -->
         <link rel="stylesheet" type="text/css" href="../portfolio/css/style.css">
         <!-- Boostrap JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <!-- Font Awesome CDN -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">      <!-- Google Fonts -->
         <!-- Google Fonts -->
@@ -82,13 +84,13 @@
             <!-- Basic Intro -->
             <div class="container">
                 <!-- White Space To Center Content Inside Picture -->
-                    <div class="row" id="white-space">::above</div>
-                    <div class="row" id="white-space">::above</div>
-                    <div class="row" id="white-space">::above</div>
-                    <div class="row" id="white-space">::above</div>
-                    <div class="row" id="white-space">::above</div>
-                    <div class="row" id="white-space">::above</div>
-                    <div class="row" id="white-space">::above</div>
+                    <div class="row white-space">::above</div>
+                    <div class="row white-space">::above</div>
+                    <div class="row white-space">::above</div>
+                    <div class="row white-space">::above</div>
+                    <div class="row white-space">::above</div>
+                    <div class="row white-space">::above</div>
+                    <div class="row white-space">::above</div>
                 <!-- Short Message -->
                 <div class="container" id="short-message">
                     <div class="row">
@@ -110,20 +112,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <a name="about-me-section" id="white-space">::about</a>
+                    <a name="about-me-section" class="white-space">::about</a>
                 </div>
             </div>
         </div>
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-1" id="white-space">::before</div>
+                <div class="col-lg-1 white-space">::before</div>
                 <!-- Self Image -->
-                <div class="col-lg-5 col-md-6 col-sm-12">
-                    <img src="images/placeholder.jpg" alt="Self Image">
+                <div class="col-lg-5 col-md-8 col-sm-12">
+                    <img src="images/placeholder.jpg" id="self-picture" alt="Self Image">
                 </div>
                 <!-- Personal Brand Statement -->
-                <div class="col-lg-5 col-md-6 col-sm-12">
+                <div class="col-lg-5 col-md-8 col-sm-12">
                     <h4><strong>Hello! My name is Mark. Thank you for taking the time to visit my site!</strong></h4>
                     <p>
                         My name is Mark and I am a dedicated, quick learning, and organized individual wanting to step into the world of technology. 
@@ -138,7 +140,7 @@
                         to become a Senior Full Stack Developer.
                     </p>  
                 </div>
-                <div class="col-lg-1" id="white-space">::after</div>
+                <div class="col-lg-1 white-space">::after</div>
             </div>
         </div>
 
@@ -146,7 +148,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-2" id="white-space">::before</div>
+                <div class="col-lg-2 white-space">::before</div>
                 <!-- Skills List -->
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <h4 id="skills"><strong>Skills</strong></h4>
@@ -183,7 +185,7 @@
                             </li>
                         </ul>
                 </div>
-                <div class="col-lg-2" id="white-space">::after</div>
+                <div class="col-lg-2 white-space">::after</div>
             </div>
         </div>
 
@@ -192,18 +194,18 @@
         <!-- Projects -->
         <div class="container">
             <div class="row">
-                <div class="col-lg-1" id="white-space">::before</div>
+                <div class="col-lg-1 white-space">::before</div>
                 <div class="col-lg-10">
                     <h2><strong>Projects & Experience</strong></h2>
                 </div>
-                <div class="col-lg-1" id="white-space">::before</div>
+                <div class="col-lg-1 white-space">::before</div>
             </div>
 
             <br><br>
 
             <!-- Movies In The Know -->
             <div class="row">
-                <div class="col-lg-1" id="white-space">::before</div>
+                <div class="col-lg-1 white-space">::before</div>
                 <!-- Project Picture -->
                 <div class="col-lg-4">
                         <img src="images/Movies logo.PNG" width="350px" height="auto" style="border: solid 1px black" alt="Movies!">
@@ -227,7 +229,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <a href="https://github.com/mark-shin77/project1">
-                                <button type="button" class="btn btn-outline-dark">GitHub Code</button>
+                                <button type="button" class="btn btn-outline-dark" id="movies-code-link">GitHub Code</button>
                             </a>
                             <a href="https://mark-shin77.github.io/project1/">
                                 <button type="button" class="btn btn-outline-dark" id="movies-deployed-link">Deployed</button> 
@@ -235,14 +237,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1" id="white-space">::after</div>
+                <div class="col-lg-1 white-space">::after</div>
             </div>
 
             <br><br>
 
             <!-- Anime API -->
             <div class="row">
-                <div class="col-lg-1" id="white-space">::before</div>
+                <div class="col-lg-1 white-space">::before</div>
                 <div class="col-lg-4">
                     <img src="images/pack_anime_logo_collection_by_dinocojv-db1f8ty.png" width="350px" height="auto" alt="Anime">
                 </div>
@@ -263,22 +265,22 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <a href="https://github.com/mark-shin77/GifTastic">
-                                <button type="button" class="btn btn-outline-dark" id="movies-deployed-link">GitHub Code</button> 
+                                <button type="button" class="btn btn-outline-dark" id="anime-code-link">GitHub Code</button> 
                             </a>   
                             <a href="https://mark-shin77.github.io/GifTastic/">
-                                <button type="button" class="btn btn-outline-dark" id="movies-deployed-link">Deployed</button> 
+                                <button type="button" class="btn btn-outline-dark" id="anime-deployed-link">Deployed</button> 
                             </a>   
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1" id="white-space">::after</div>
+                <div class="col-lg-1 white-space">::after</div>
             </div>
 
             <br><br>
 
             <!-- Game of Thrones Trivia -->
             <div class="row">
-                <div class="col-lg-1" id="white-space">::before</div>
+                <div class="col-lg-1 white-space">::before</div>
                 <div class="col-lg-4">
                     <img src="images/Game-of-Thrones-Logo-718x300.jpg" width="350px" height="auto" alt="Game Of Thrones">
                 </div>
@@ -299,15 +301,15 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <a href="https://github.com/mark-shin77/TriviaGame">
-                                <button type="button" class="btn btn-outline-dark" id="movies-deployed-link">GitHub Code</button> 
+                                <button type="button" class="btn btn-outline-dark" id="got-code-link">GitHub Code</button> 
                             </a>   
                             <a href="https://mark-shin77.github.io/TriviaGame/">
-                                <button type="button" class="btn btn-outline-dark" id="movies-deployed-link">Deployed</button> 
+                                <button type="button" class="btn btn-outline-dark" id="got-deployed-link">Deployed</button> 
                             </a> 
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-1" id="white-space">::after</div>
+                <div class="col-lg-1 white-space">::after</div>
             </div>
         </div>
 

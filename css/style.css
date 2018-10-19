@@ -100,11 +100,10 @@ body{
     background-color:#3a4660;
     position: fixed top;
 }
-/* Text Inside of Background */
-#white-space{
+/* Extra Spacing in areas that I don't want to be shown */
+.white-space{
     visibility: hidden;
 }
-
 #short-message{
     text-align: center;
     color: white;
@@ -171,3 +170,43 @@ footer{
     text-align: center;
 }
 
+@media screen and (min-width:300px){
+    #short-message{
+        width:  95%;
+    }
+    #self-picture{
+        height: 350px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+} 
+@media screen and (min-width:400px){
+    #short-message{
+        width:  90%;
+    }
+} 
+@media screen and (min-width:500px){
+    #short-message{
+        width:  90%;
+    }
+} 
+@media screen and (min-width:700px){
+    #short-message{
+        width:  60%;
+    }
+    #self-picture{
+        height: 350px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+} 
+@media screen and (min-width:800px){
+    #short-message{
+        width:  50%;
+    }
+} 
+@media screen and (min-width:900px){
+    #short-message{
+        width:  50%;
+    }
+} 
