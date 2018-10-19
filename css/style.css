@@ -9,8 +9,20 @@ body{
     background-color: rgba(255, 250, 250, 0.281);
 }
 
-/* customizable snowflake styling */
+/* individual snowflake styles */
+.snowflake.design-1:before{
+    content: "\2744";
+}
+.snowflake.design-2:before{
+    content: "\2745";
+}
+.snowflake.design-3:before{
+    content: "\2746";
+}
+
+/* snowflake animation */
 .snowflake {
+    
     color: #fff;
     font-size: 1em;
     font-family: Arial;
@@ -24,16 +36,17 @@ body{
     user-select:none;
     cursor:default;
     -webkit-animation-name:snowflakes-fall,snowflakes-shake;
-    -webkit-animation-duration:10s,3s;
+    -webkit-animation-duration:8s,3s;
     -webkit-animation-timing-function:linear,ease-in-out;
     -webkit-animation-iteration-count:infinite,infinite;
     -webkit-animation-play-state:running,running;
     animation-name:snowflakes-fall,snowflakes-shake;
-    animation-duration:10s,3s;
+    animation-duration:8s,3s;
     animation-timing-function:linear,ease-in-out;
     animation-iteration-count:infinite,infinite;
     animation-play-state:running,running
 }
+
 .snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}
 .snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}
 .snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}
@@ -133,6 +146,21 @@ hr{
 #interests{
     text-align: center;
 }
+#bilingual:after{
+    content: "\1f44d";
+}
+#games:after{
+    content: "\1F3AE";
+}
+#soccer:after{
+    content: "\26bd";
+}
+#street-wear:after{
+    content: "\1F454";
+}
+#travel:after{
+    content: "\1F6EB";
+}
 
 /* Projects Section */
 #project-overview{
@@ -148,7 +176,13 @@ hr{
 .social a {
     font-size: 2em;
     padding: 3rem;
-  }
+}
+.social-media-list{
+    list-style: none;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .fa-facebook {
     color: #3b5998;
@@ -174,27 +208,42 @@ footer{
     text-align: center;
 }
 
-@media screen and (min-width:300px){
+/* Media Queries */
+@media only screen and (max-width: 400px) and (min-width: 300px){
     #short-message{
         width:  95%;
     }
     #self-picture{
-        height: 350px;
+        height: 300px;
+        display: block;
+        margin-bottom: 30px;
         margin-right: auto;
         margin-left: auto;
     }
-} 
-@media screen and (min-width:400px){
-    #short-message{
-        width:  90%;
+    .personal-brand-statement{
+        text-align: center;
     }
-} 
-@media screen and (min-width:500px){
-    #short-message{
-        width:  90%;
+    #movies-logo{
+        margin-bottom: 30px;
+        margin-top: -50px;
     }
-} 
-@media screen and (min-width:700px){
+    #anime-logo{
+        margin-bottom: 30px;
+        margin-top: -30px;
+    }
+    #got-logo{
+        margin-bottom: 30px;
+        margin-top: -30px;
+    }
+    .social.padding{
+        display: flex;
+        margin-left: -25px;
+    }
+}
+@media only screen and (max-width: 500px) and (min-width: 401px){
+
+}
+@media only screen and (max-width: 800px) and (min-width: 700px){
     #short-message{
         width:  60%;
     }
@@ -202,15 +251,6 @@ footer{
         height: 350px;
         margin-right: auto;
         margin-left: auto;
+        display: block;
     }
-} 
-@media screen and (min-width:800px){
-    #short-message{
-        width:  50%;
-    }
-} 
-@media screen and (min-width:900px){
-    #short-message{
-        width:  50%;
-    }
-} 
+}

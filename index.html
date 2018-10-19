@@ -50,36 +50,16 @@
             </nav>
             <!-- Snow -->
             <div class="snowflakes" aria-hidden="true">
-                <div class="snowflake">
-                ❄
-                </div>
-                <div class="snowflake">
-                ❅
-                </div>
-                <div class="snowflake">
-                ❆
-                </div>
-                <div class="snowflake">
-                ❄
-                </div>
-                <div class="snowflake">
-                ❅
-                </div>
-                <div class="snowflake">
-                ❆
-                </div>
-                <div class="snowflake">
-                ❄
-                </div>
-                <div class="snowflake">
-                ❅
-                </div>
-                <div class="snowflake">
-                ❆
-                </div>
-                <div class="snowflake">
-                ❄
-                </div>
+                <div class="snowflake design-1"></div>
+                <div class="snowflake design-2"></div>
+                <div class="snowflake design-3"></div>
+                <div class="snowflake design-1"></div>
+                <div class="snowflake design-2"></div>
+                <div class="snowflake design-3"></div>
+                <div class="snowflake design-1"></div>
+                <div class="snowflake design-2"></div>
+                <div class="snowflake design-3"></div>
+                <div class="snowflake design-1"></div>
             </div>
             <!-- Basic Intro -->
             <div class="container">
@@ -126,14 +106,14 @@
                 </div>
                 <!-- Personal Brand Statement -->
                 <div class="col-lg-5 col-md-8 col-sm-12">
-                    <h4><strong>Hello! My name is Mark. Thank you for taking the time to visit my site!</strong></h4>
-                    <p>
+                    <h4 class="personal-brand-statement"><strong>Hello! My name is Mark. Thank you for taking the time to visit my site!</strong></h4>
+                    <p class="personal-brand-statement">
                         My name is Mark and I am a dedicated, quick learning, and organized individual wanting to step into the world of technology. 
                         Coming from a background as a retail manager, I bring a set of unique skills such as the ability to stay calm in stressful 
                         circumstances, effective time management skills, excellent interpersonal skills, forward planning, and strategic thinking in 
                         order to help me excel at any company. 
                     </p>
-                    <p>
+                    <p class="personal-brand-statement">
                         I will be graduating from the University of Utah’s coding boot camp in Feb. 2019. We 
                         get our hands dirty with the most current and sot after languages such as java script, react, php, node and many more to get 
                         our web applications from mock-up to deployment. I would like to continue learning and growing alongside a company in order 
@@ -154,7 +134,7 @@
                     <h4 id="skills"><strong>Skills</strong></h4>
                         <ul>
                             <li>
-                                <p>Bilingual (English/Korean) <i class="far fa-thumbs-up"></i></p>
+                                <p id="bilingual">Bilingual (English/Korean)</p>
                             </li>
                             <li>
                                 <p>HTML5 <i class="fab fa-html5"></i></p>
@@ -172,16 +152,16 @@
                     <h4 id="interests"><strong>Interest / Hobbies</strong></h4>
                         <ul>
                             <li>
-                                <p>Games ( Mainly Commputer Based ) <i class="fa fa-gamepad"></i></p>
+                                <p id="games">Games ( Mainly Commputer Based )</p>
                             </li>
                             <li>
-                                <p>Soccer ( Go Liverpool! ) <i class="far fa-futbol"></i></p>
+                                <p id="soccer">Soccer ( Go Liverpool! )</p>
                             </li>
                             <li>
-                                <p>Street Wear ( Hypebeast Clothing )<i class="fas fa-tshirt"></i></p>
+                                <p id="street-wear">Street Wear ( Hypebeast Clothing )</p>
                             </li>
                             <li>
-                                <p>Traveling ( Bucket List Locations : England, Japan, Australia ) <i class="fas fa-plane"></i></p>
+                                <p id="travel">Traveling ( Bucket List Locations : England, Japan, Australia )</p>
                             </li>
                         </ul>
                 </div>
@@ -208,7 +188,7 @@
                 <div class="col-lg-1 white-space">::before</div>
                 <!-- Project Picture -->
                 <div class="col-lg-4">
-                        <img src="images/Movies logo.PNG" width="350px" height="auto" style="border: solid 1px black" alt="Movies!">
+                        <img src="images/Movies logo.PNG" id="movies-logo" width="350px" height="auto" style="border: solid 1px black" alt="Movies!">
                     </div>
                 <div class="col-lg-6" id="project-overview">
                     <!-- Title -->
@@ -246,7 +226,7 @@
             <div class="row">
                 <div class="col-lg-1 white-space">::before</div>
                 <div class="col-lg-4">
-                    <img src="images/pack_anime_logo_collection_by_dinocojv-db1f8ty.png" width="350px" height="auto" alt="Anime">
+                    <img src="images/pack_anime_logo_collection_by_dinocojv-db1f8ty.png" id="anime-logo" width="350px" height="auto" alt="Anime">
                 </div>
                 <div class="col-lg-6" id="project-overview">
                     <!-- Title -->
@@ -282,7 +262,7 @@
             <div class="row">
                 <div class="col-lg-1 white-space">::before</div>
                 <div class="col-lg-4">
-                    <img src="images/Game-of-Thrones-Logo-718x300.jpg" width="350px" height="auto" alt="Game Of Thrones">
+                    <img src="images/Game-of-Thrones-Logo-718x300.jpg" id="got-logo"width="350px" height="auto" alt="Game Of Thrones">
                 </div>
                 <div class="col-lg-6" id="project-overview">
                     <!-- Title -->
@@ -315,11 +295,18 @@
 
         <br><br><br>
 
+        <!-- Social Media Links -->
         <div class="container-fluid" id="social-media">
             <div class="col-lg-12 social padding">
-                <a href="https://www.facebook.com/mark.shin.77"><i class="fab fa-facebook"></i></a>
-                <a href="https://github.com/mark-shin77"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/mark-shin-33298a159/"><i class="fab fa-linkedin"></i></a>
+                <li class="social-media-list">
+                    <a href="https://www.facebook.com/mark.shin.77"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li class="social-media-list">
+                    <a href="https://github.com/mark-shin77"><i class="fab fa-github"></i></a>
+                </li>
+                <li class="social-media-list">
+                    <a href="https://www.linkedin.com/in/mark-shin-33298a159/"><i class="fab fa-linkedin"></i></a>
+                </li>
             </div>
         </div>
 
