@@ -173,9 +173,12 @@ hr{
     text-align: center;
     background-color: #d5d5d5;
 }
+.social{
+    display: flex;
+   
+}
 .social a {
     font-size: 2em;
-    padding: 3rem;
 }
 .social-media-list{
     list-style: none;
@@ -241,6 +244,9 @@ footer{
     }
 }
 @media only screen and (max-width: 500px) and (min-width: 401px){
+    .opening-message-placement{
+        margin-top: 150px;
+    }
     #short-message{
         width:  95%;
     }
@@ -248,31 +254,29 @@ footer{
         height: 350px;
         display: block;
         margin-bottom: 30px;
-        margin-top: -30px;
         margin-right: auto;
         margin-left: auto;
+    }
+    .white-space{
+        display: none;
     }
     .personal-brand-statement{
         text-align: center;
     }
     #movies-logo{
         margin-bottom: 30px;
-        margin-top: -50px;
     }
     #anime-logo{
         margin-bottom: 30px;
-        margin-top: -30px;
     }
     #got-logo{
         margin-bottom: 30px;
-        margin-top: -30px;
     }
     .projects-experience{
         text-align: center;
     }
     .social.padding{
         display: flex;
-        margin-left: -25px;
     }
 }
 @media only screen and (max-width: 800px) and (min-width: 700px){
