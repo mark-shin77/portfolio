@@ -50,10 +50,10 @@
 
         <br><br>
 
-        <!-- Contact Form -->
+        <!-- Content on Contact Page -->
         <div class="container">
             <div class="row">
-                <div class="col-lg-2"></div>
+                <div class="col-lg-1"></div>
                 <div class="col-lg-4">
                     <!-- Contact Description -->
                     <h2 style="background: #53658a; color: white; text-align: center; font-size: 40px"><strong>Contact</strong></h2>
@@ -70,26 +70,34 @@
                     </p>
                 </div>
                 <!-- Contact Form -->
-                <div class="col-lg-4" id="contact form" style="border: 1px solid #3a4660;">
-                    <form style="margin-top: 10px; margin-bottom: 10px;">
+                <div class="col-lg-4" style="border: 1px solid #3a4660;">
+                    <form action="https://formspree.io/contact.mshin@gmail.com" method="POST" id="contact-form" style="margin-top: 10px; margin-bottom: 10px;">
                         <div class="form-group">
-                            <label for="exampleFormControlInput1">Name</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+                            <label>Name</label>
+                            <label id="invalid-name"></label>
+                            <input type="name" class="form-control" name="name" id="user-name" placeholder="John Doe">
                         </div>
                         <div class="form-group">
-                            <label for="exampleFormControlSelect1">Email</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+                            <label>Email</label>
+                            <label id="invalid-email"></label>
+                            <input type="email" class="form-control" name="_replyto" id="user-email" placeholder="name@example.com">
                         </div>
                         <div class="form-group">
-                            <label for="exampleFormControlSelect2">Phone Number (optional)</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="555-555-5555">
+                            <label>Phone Number (optional)</label>
+                            <input type="phoneNumber" class="form-control" name="phone-number" id="user-number" placeholder="555-555-5555">
                         </div>
                         <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Message</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="What can I do for you?" rows="3"></textarea>
+                            <label>Message</label>
+                            <label id="invalid-message"></label>
+                            <textarea class="form-control" name="message" id="user-message" placeholder="What can I do for you?" rows="3"></textarea>
+                            <input type="text" name="_gotcha" style="display:none" />
+                            <input type="hidden" name="_next" value="https://site.io/thanks.html" />
                         </div>
-                        <button type="button" class="btn btn-outline-dark" id="submit-form">Submit</button> 
+                        <input type="submit" class="btn btn-outline-dark" id="submit-form">
                     </form>
+                </div>
+                <div class="col-lg-1">
+                    <div class="status"></div>
                 </div>
                 <div class="col-lg-2"></div>
             </div>
@@ -103,13 +111,13 @@
                 <div class="col-lg-3 white-space">::before</div>
                 <div class="col-lg-6 col-md-6 col-sm-12 social padding">
                     <li class="social-media-list">
-                        <a href="https://www.facebook.com/mark.shin.77"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/mark.shin.77" class="fab fa-facebook"></a>
                     </li>
                     <li class="social-media-list">
-                        <a href="https://github.com/mark-shin77"><i class="fab fa-github"></i></a>
+                        <a href="https://github.com/mark-shin77" class="fab fa-github"></a>
                     </li>
                     <li class="social-media-list">
-                        <a href="https://www.linkedin.com/in/mark-shin-33298a159/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/mark-shin-33298a159/" class="fab fa-linkedin"></a>
                     </li>
                 </div>
                 <div class="col-lg-3 white-space">::after</div>
