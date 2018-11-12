@@ -189,16 +189,13 @@ hr{
 .social a {
     font-size: 2em;
 }
-.social-media-list{
-    list-style: none;
+.social-media-links{
     margin-bottom: 0;
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
 }
 
-.fa-facebook {
-    color: #3b5998;
-  }
 .fa-linkedin{
     color: #4875B4
 
@@ -207,7 +204,6 @@ hr{
     color: black;
 }
 
-.fa-facebook:hover,
 .fa-linkedin:hover,
 .fa-github:hover {
   color: whitesmoke;
@@ -240,7 +236,15 @@ footer{
         margin-bottom: 30px;
         margin-top: -50px;
     }
-    #anime-logo{
+    #bamazon-logo{
+        margin-bottom: 30px;
+        margin-top: -30px;
+    }
+    #hangman-logo{
+        margin-bottom: 30px;
+        margin-top: -30px;
+    }
+    #liri-logo{
         margin-bottom: 30px;
         margin-top: -30px;
     }
@@ -249,7 +253,7 @@ footer{
         margin-top: -30px;
     }
     .social.padding{
-        display: flex;
+        display: contents;
         margin-left: -25px;
     }
     .white-space{
@@ -279,7 +283,13 @@ footer{
     #movies-logo{
         margin-bottom: 30px;
     }
-    #anime-logo{
+    #bamazon-logo{
+        margin-bottom: 30px;
+    }
+    #hangman-logo{
+        margin-bottom: 30px;
+    }
+    #liri-logo{
         margin-bottom: 30px;
     }
     #got-logo{
@@ -310,10 +320,17 @@ footer{
         margin-bottom: 30px;
         width: 320px;
     }
-    #anime-logo{
+    #bamazon-logo{
         margin-bottom: 30px;
         width: 320px;
-
+    }
+    #hangman-logo{
+        margin-bottom: 30px;
+        width: 320px;
+    }
+    #liri-logo{
+        margin-bottom: 30px;
+        width: 320px;
     }
     #got-logo{
         margin-bottom: 30px;
@@ -332,16 +349,23 @@ footer{
         display: block;
     }
     .social.padding{
-        display: flex;
+        display: contents;
     }
     #movies-logo{
         margin-bottom: 30px;
         width: 320px;
     }
-    #anime-logo{
+    #bamazon-logo{
         margin-bottom: 30px;
         width: 320px;
-
+    }
+    #hangman-logo{
+        margin-bottom: 30px;
+        width: 320px;
+    }
+    #liri-logo{
+        margin-bottom: 30px;
+        width: 320px;
     }
     #got-logo{
         margin-bottom: 30px;
